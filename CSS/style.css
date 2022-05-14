@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #5AA25A;
+}
+
+header {
+    width: 100%;
+    /* height: 70px; */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+    /* background-color: #80C080; */
+}
+
+.top-img img {
+    width: 40px;
+    height: 40px;
+}
+
+.section-one {
+    height: 70px;
+    background-color: #80C080;
+}
+
+.section-two {
+    min-height: 250px;
+    background-color: #CBDDCB;
+}
+
+.section-two div {
+    width: 1364px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.top-menu img {
+    width: 40px;
+    height: 40px;
+}
+
+ul.top-menu {
+    list-style-type: none;
+}
+
+ul.top-menu li {
+    display: inline-block;
+    width: 5rem;
+    font-size: 10px;
+    color: white;
+}
+
+ul.top-menu li:nth-child(1) {
+    width: 6.5rem;
+}
+
+ul.top-menu li:nth-child(2) {
+    width: 6rem;
+}
+
+ul.top-menu li:nth-child(3) {
+    width: 9.5rem;
+}
+
+ul.top-menu li:nth-child(4) {
+    width: 10.5rem;
+}
+
+ul.top-menu li:nth-child(5) {
+    width: 8rem;
+}
+
+ul.top-menu li:nth-child(6) {
+    width: 9rem;
+}
+
+ul.top-menu li:nth-child(7) {
+    width: 7rem;
+}
+
+.social-icons img {
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+.heading-img {
+    width: 963px;
+    height: 121px;
+    display: block;
+    margin: auto;
+}
+
+.address-header {
+    line-height: 1.5rem;
+    text-align: center;
+    padding-top: 10px;
+    color: #127E27;
+}
+
+main {
+    background-color: #5AA25A;
+    min-height: 545px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+/* Needed to have background color behind calendar */
+.new-calendar {
+    background-color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+
+.video-index img {
+    width: 715px;
+    height: 479px;
+}
+
+footer {
+    clear: both;
+    background-color: #198D19;
+    min-height: 10rem;
+    padding-top: 20px;
+}
+
+.footer-container ul {
+    list-style-type: none;
+}
+
+.footer-container ul li {
+    color: white;
+}
+
+.footer-container:nth-child(2),
+.footer-container:nth-child(3),
+.footer-container:nth-child(4) {
+    padding-top: 30rem;
+}
+
+.address-footer {
+    padding-top: 1.5rem;
+    line-height: 5px;
+}
+
+#calendar {
+    margin: 0 auto;
+    color: #127E27
+}
+
+.carousel-img {
+    min-height: 462px;
+}
+
+.my-icons {
+    display: inline-block;
+    padding-right: 3px;
+    color: white;
+    font-size: 14px;
+}
+
+.par-camp {
+    width: 1000px;
+    padding-top: 1rem;
+}

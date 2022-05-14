@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ol li {
+    /* display: inline-block; */
+    min-width: 150px;
+    line-height: 35px;
+}
+
+ol li {
+    display: inline-block;
+}
+
+.days li {
+    font-weight: 800;
+}
+
+li span {
+    font-size: 22px;
+}
